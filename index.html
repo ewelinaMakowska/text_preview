@@ -38,7 +38,7 @@
                   <form method="post" action="#" class="font-settings-form"> 
                <div class="col span-1-of-2 form-left">
                 <div class="row"><label>font size: </label></div>
-                <div class="row"><input></div>
+                <div class="row"><input type="text" placeholder="12" id="size"></div>
                 </div>
                 
                <div class="col span-1-of-2 form-right">
@@ -47,9 +47,11 @@
                         <div class="col 1-of-2"><label>font family:</label></div>
                         <div class="col 1-of-2">
                             <select id="select-font">
-                                <option value="Helvetica">Helvetica</option>
-                                <option value="Verdana">Verdana</option>
-                                <option value="Courier">Courier</option>
+                                <option value="helvetica" id="helvetica">Helvetica</option>
+                                <option value="verdana" id="verdana">Verdana</option>
+                                <option value="courier" id="courier">Courier</option>
+                                <option value="times" id="times">Times</option>
+                                <option value="impact" id="impact">Impact</option>
                             </select>
                         </div>
                    </div>
@@ -62,7 +64,7 @@
                         </div>
                         
                         <div class="col 1-of-2">
-                            <select id="select-weight">
+                            <select name="weight" id="select-weight">
                                 <option value="Normal">Normal</option>
                                 <option value="Bold">Bold</option>
                                 <option value="Bolder">Bolder</option>
@@ -87,9 +89,7 @@
              
              <div class="row">
                  
-             <textarea class="preview">
-                 Preview
-             </textarea>
+             <textarea name="preview"  class="preview" placeholder="Preview" id="text-preview" cols="30" rows="30"></textarea>
                  
              </div>
            
@@ -97,9 +97,7 @@
         
          <section class="type-here">
              <div class="row">
-                  <textarea>
-                 Type your sample text here.
-             </textarea>
+                  <textarea name="preview" placeholder="Type your sample text here" id="text-type" cols="30" rows="30"></textarea>
              </div>
             
         </section>
@@ -109,8 +107,8 @@
     
     
     
-    <script src="resources/css/style.css"></script>
+   
     <script src="vendors/js/jquery-3.4.0.js"></script>
-    
+     <script src="resources/js/main.js"></script>
     
 </html>
