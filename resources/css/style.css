@@ -1,0 +1,154 @@
+/*font font-family: 'Roboto', sans-serif; */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    color: #2e2e2e;
+    font-family: 'Roboto', 'Arial', sans-serif;
+    font-weight: 300;
+    font-size: 20px;
+    text-rendering: optimizeLegibility;
+}
+
+.row {
+margin: 0 auto;
+    max-width: 1140px;
+}
+
+section {
+    padding: 20px 80px;
+}
+
+clearfix {
+}
+
+header {
+    background-image: url(img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 30%;
+   
+}
+
+h1 {
+    font-size: 500%;
+    font-weight:900;
+    color: floralwhite;
+    text-transform: uppercase;
+    text-align: center;
+    display: inline-block;
+}
+
+.font-settings {
+    background-color: #fafce7;
+}
+
+.type-here {
+    background-color: #fafce7;
+}
+
+.hero-text {
+    text-align: center;
+}
+
+
+/*------------------------------------------FORM-------------------------------------------------*/
+
+.form-container {
+    
+}
+
+.font-settings-form { 
+width: 60%;
+margin: 0 auto;
+}
+
+
+
+form label {
+    text-transform: uppercase;
+}
+
+.form-left {
+    text-align: center;
+    padding: 5px;
+}
+
+.form-right {
+
+    padding: 5px;
+}
+
+select {
+width: 120px;
+}
+
+.form-right select {
+   
+}
+
+input {
+width: 50px;
+    margin: 10px;
+}
+
+#select-weight {
+    
+}
+
+#select-font {
+    margin-left: 10px;
+}
+
+/*----------------------------------------------------TEXTAREAS-------------------------------------*/
+.font-processed,
+.type-here {
+    text-align: center;
+}
+
+textarea {
+height: 30vh;
+width: 80%;
+padding: 7px;
+border: 1px solid #ccc;
+height: 100px;
+    margin: 20px;
+    display: inline-block;
+    resize:none;
+
+}
+
+.preview {
+height: 200px;
+}
+
+
+/*
+.contact-form {
+    width: 60%;
+    margin: 0 auto;
+}
+
+input[type=text],
+input[type=email],
+select,
+textarea {
+    width: 100%;
+    padding: 7px;
+    border-radius: 3px;
+    border: 1px solid #ccc;
+}
+
+textarea {
+    height=100px;
+}
+
+input[type=checkbox] {
+    margin: 10px 5px 10px 0;
+}
+
+*focus {outline: none;}
+*/
